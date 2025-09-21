@@ -1,0 +1,8 @@
+Add core features for mental wellness chatbot application
+
+This commit introduces the main application structure in `app.py`, including session state management for anonymous users, Streamlit page configuration, and navigation setup. It also includes the implementation of various components: `chat_interface` for AI-driven conversations with persona selection and crisis detection, `mood_tracker` for logging and visualizing moods, `journal_prompts` for guided reflection, `cbt_exercises` for thought records and pattern identification, `breathing_exercises` for mindfulness practices, and `psychoeducation` for mental health learning. Additionally, it configures Streamlit server settings in `.streamlit/config.toml`, adds data structures for CBT prompts and crisis keywords in `data/cbt_prompts.py` and `data/crisis_keywords.py`, respectively.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: b3b725cd-c179-4f36-9644-cdc925e9ec0a
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/65d77274-bb8c-4aac-b8e5-f17e4e5a0589/b3b725cd-c179-4f36-9644-cdc925e9ec0a/htVyOgx
